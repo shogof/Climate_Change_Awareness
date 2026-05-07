@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youth Climate Network | The Movement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Satellite&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-ring"></div>
+      <div class="preloader-text">
+        saving the planet<span class="dot-animation">...</span>
+      </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-switch">
+      <i class="fas fa-sun"></i>
+      <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img src="images/logo.png" class="myLogo" alt="" />
+        </a>
+        <div class="nav-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#stats" class="nav-link">Evidence</a>
+          <a href="#impact" class="nav-link">Impact</a>
+          <a href="#actions" class="nav-link">Act</a>
+          <a href="#join" class="nav-join">Join →</a>
+        </div>
+        <div class="menu-btn">
+          <div class="menu-btn__burger"></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-gradient-bg"></div>
+      <div class="hero-particles" id="particles"></div>
+
+      <div class="hero-content">
+        <div class="hero-left">
+          <!-- <div class="hero-tag">
+            <span class="tag-line"></span>
+            THE URGENCY IS NOW
+          </div> -->
+          <h1 class="hero-title">
+            <span class="title-line">Rise. Fight. Save.</span>
+            <span class="title-line gradient-text">Survive.</span>
+          </h1>
+          <p class="hero-desc">
+            The climate crisis isn't coming — it's here. 50,000+ youth
+            activists. 120+ countries. One unstoppable movement.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#join" class="btn-primary">
+              Join the Movement
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#stats" class="btn-outline">
+              See the Evidence
+              <i class="fas fa-chart-line"></i>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric">
+              <div class="metric-number" data-target="120">0</div>
+              <div class="metric-label">Countries</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+              <div class="metric-number" data-target="52341">0</div>
+              <div class="metric-label">Activists</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+              <div class="metric-number" data-target="2840000">0</div>
+              <div class="metric-label">Trees Planted</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="card-glow"></div>
+            <div class="temp-display">
+              <div class="temp-value">+1.2<span>°C</span></div>
+              <div class="temp-label">Global warming since 1880</div>
+              <div class="temp-bar">
+                <div class="temp-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="co2-display">
+              <div class="co2-value">423<span>ppm</span></div>
+              <div class="co2-label">Current CO₂ concentration</div>
+              <div class="co2-bar">
+                <div class="co2-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="hero-quote">
+              <i class="fas fa-quote-left"></i>
+              <p>"The youth are the last hope for our planet"</p>
+              <span>— UN Climate Report</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">THE EVIDENCE</div>
+          <h2>The climate crisis<br />is accelerating</h2>
+          <p>Data that demands immediate action</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon">🌡️</div>
+            <div class="stat-number-wrap">
+              <span class="stat-main" data-target="1.2">0</span>
+              <span class="stat-unit">°C</span>
+            </div>
+            <h3>Temperature rise</h3>
+            <p>Hottest decade in 125,000 years</p>
+            <div class="stat-trend up">↑ +0.2°C per decade</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🧊</div>
+            <div class="stat-number-wrap">
+              <span class="stat-main" data-target="270">0</span>
+              <span class="stat-unit">B tons/yr</span>
+            </div>
+            <h3>Greenland ice loss</h3>
+            <p>Raising sea levels 0.8mm annually</p>
+            <div class="stat-trend up">↑ Accelerating</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🔥</div>
+            <div class="stat-number-wrap">
+              <span class="stat-main" data-target="350">0</span>
+              <span class="stat-unit">%</span>
+            </div>
+            <h3>Extreme fire increase</h3>
+            <p>Since 1980, wildfire risk has tripled</p>
+            <div class="stat-trend up">↑ +350%</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🌊</div>
+            <div class="stat-number-wrap">
+              <span class="stat-main" data-target="90">0</span>
+              <span class="stat-unit">%</span>
+            </div>
+            <h3>Coral reefs at risk</h3>
+            <p>Could vanish at 1.5°C warming</p>
+            <div class="stat-trend critical">⚠️ Critical</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact">
+      <div class="impact-bg-pattern"></div>
+      <div class="container">
+        <div class="impact-header">
+          <div class="section-badge">OUR MOVEMENT</div>
+          <h2>
+            We're not waiting.<br />We're
+            <span class="gradient-text">winning.</span>
+          </h2>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-card">
+            <div class="impact-number" data-target="1250000">0</div>
+            <div class="impact-label">Trees planted</div>
+            <div class="impact-progress">
+              <div class="impact-bar" style="width: 0%"></div>
+            </div>
+            <p>Restoring forests across 4 continents</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-number" data-target="1850">0</div>
+            <div class="impact-label">Cleanup events</div>
+            <div class="impact-progress">
+              <div class="impact-bar" style="width: 0%"></div>
+            </div>
+            <p>Removing plastic from our oceans</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-number" data-target="218">0</div>
+            <div class="impact-label">Local chapters</div>
+            <div class="impact-progress">
+              <div class="impact-bar" style="width: 0%"></div>
+            </div>
+            <p>Youth-led action worldwide</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-number" data-target="850000">0</div>
+            <div class="impact-label">Citizens educated</div>
+            <div class="impact-progress">
+              <div class="impact-bar" style="width: 0%"></div>
+            </div>
+            <p>Workshops and school programs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">THE COUNTDOWN</div>
+          <h2>We have <span class="gradient-text">limited time</span></h2>
+          <p>Climate scientists agree — action needed NOW</p>
+        </div>
+        <div class="countdown">
+          <div class="countdown-item">
+            <div class="countdown-number" id="years">00</div>
+            <div class="countdown-label">Years</div>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="days">00</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="hours">00</div>
+            <div class="countdown-label">Hours</div>
+          </div>
+        </div>
+        <div class="timeline-note">
+          Until we reach irreversible tipping point (1.5°C warming)
+        </div>
+      </div>
+    </section>
+
+    <!-- Actions Section -->
+    <section id="actions" class="actions">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">TAKE ACTION</div>
+          <h2>
+            Your power.<br />Your <span class="gradient-text">impact.</span>
+          </h2>
+          <p>4 ways to start today</p>
+        </div>
+
+        <div class="actions-grid">
+          <div class="action-card">
+            <div class="action-number">01</div>
+            <div class="action-icon">
+              <i class="fas fa-microphone-alt"></i>
+            </div>
+            <h3>Raise your voice</h3>
+            <p>
+              Speak up on social media, contact local leaders, and educate your
+              community about climate change.
+            </p>
+            <a href="#" class="action-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="action-card">
+            <div class="action-number">02</div>
+            <div class="action-icon">
+              <i class="fas fa-tree"></i>
+            </div>
+            <h3>Plant trees</h3>
+            <p>
+              One tree absorbs 22kg of CO₂ per year. Join or start a local
+              planting event today.
+            </p>
+            <a href="#" class="action-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="action-card">
+            <div class="action-number">03</div>
+            <div class="action-icon">
+              <i class="fas fa-recycle"></i>
+            </div>
+            <h3>Zero waste living</h3>
+            <p>
+              Say no to single-use plastics, start composting, and choose
+              reusable products.
+            </p>
+            <a href="#" class="action-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="action-card">
+            <div class="action-number">04</div>
+            <div class="action-icon">
+              <i class="fas fa-bicycle"></i>
+            </div>
+            <h3>Sustainable travel</h3>
+            <p>
+              Walk, bike, use public transport. Transportation accounts for 20%
+              of global CO₂.
+            </p>
+            <a href="#" class="action-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="join">
+      <div class="join-bg"></div>
+      <div class="container">
+        <div class="join-card">
+          <div class="join-left">
+            <div class="section-badge">START NOW</div>
+            <h2>Become a<br />Climate Warrior</h2>
+            <p>
+              Join the fastest-growing youth climate movement. Get monthly
+              action guides, exclusive events, and connect with activists
+              worldwide.
+            </p>
+            <div class="join-features">
+              <div><i class="fas fa-check-circle"></i> Free forever</div>
+              <div><i class="fas fa-check-circle"></i> Action toolkit</div>
+              <div><i class="fas fa-check-circle"></i> Global network</div>
+              <div><i class="fas fa-check-circle"></i> Weekly updates</div>
+            </div>
+          </div>
+          <div class="join-right">
+            <form id="signupForm">
+              <h3>Join the movement</h3>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" placeholder="Full name" required />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email address"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-globe"></i>
+                <select id="country">
+                  <option value="">Select your country</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                  <option>India</option>
+                  <option>Germany</option>
+                  <option>France</option>
+                  <option>Brazil</option>
+                  <option>Japan</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <button type="submit" class="btn-primary full">Join Now →</button>
+              <p id="formMessage" class="form-message"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <i class="fas fa-leaf"></i> YOUTH CLIMATE
+            </div>
+            <p>Empowering the next generation to save our planet.</p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#stats">Evidence</a></li>
+              <li><a href="#impact">Impact</a></li>
+              <li><a href="#actions">Take Action</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Climate Guide</a></li>
+              <li><a href="#">Local Chapters</a></li>
+              <li><a href="#">Events Calendar</a></li>
+              <li><a href="#">Volunteer</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2024 Youth Climate Network — Youth-led, youth-powered. 🌍 Together
+            we rise.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
